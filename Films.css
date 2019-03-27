@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'japonesa';
+    src: url('fonts/jap/jap.ttf') format("truetype");
+}
+  
+@font-face {
+    font-family: 'zenzai';
+    src: url('fonts/zenzai/zenzai.ttf') format("truetype");
+  }
+  
+@font-face {
+    font-family: 'osaka';
+    src: url('fonts/osaka/osaka.ttf') format("truetype");
+}
+  
+@font-face {
+    font-family: 'Wonder';
+    src: url('fonts/Wonder/wonder.ttf') format("truetype");
+}
+  
+  /*Barre de Nav*/
+  
+.menu-droite {
+    display: flex;
+    justify-content: flex-end;    
+}
+    
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+    
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
+    
+.barre-blanche {
+    margin-top: 8px;
+    margin-left: 5px;
+    color: white;
+}
+  
+.navbar{
+    background: DeepSkyBlue;
+}
+      
+  /*Ecritures*/
+  
+a {
+    font-family: zenzai;
+    font-size: 35px;
+}
+  
+p {
+    font-family: Wonder;
+    font-size: 20px;
+}
+  
+h1 {
+    font-family: osaka;
+    font-size: 70px;
+    color: black;
+}
+  
+h2 {
+    font-family: 'japonesa';
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    color: DeepSkyBlue;
+}
+  
+h3 {
+    font-family: osaka;
+    color: grey;
+    font-size: 15px;
+    text-align: center;
+}
+  
+h4 {
+    font-family: osaka;
+    text-decoration: underline;
+}
+
+li {
+    font-family: Wonder;
+    font-size: 20px;
+}
+    
+  /*Footer*/
+  
+.basdepage {
+    background-color: DeepSkyBlue;
+    color: black;
+    font-family: Japonesa;
+    font-size: 30px;
+    margin: 0px;
+}
+  
+.logo-fin {
+    width: 40%;
+}
+  

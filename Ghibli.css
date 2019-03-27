@@ -1,0 +1,141 @@
+@font-face {
+  font-family: 'japonesa';
+  src: url('fonts/jap/jap.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: 'zenzai';
+  src: url('fonts/zenzai/zenzai.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: 'osaka';
+  src: url('fonts/osaka/osaka.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: 'Wonder';
+  src: url('fonts/Wonder/wonder.ttf') format("truetype");
+}
+
+/*Barre de Nav*/
+
+.menu-droite {
+  display: flex;
+  justify-content: flex-end;    
+}
+  
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+  
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  color: white;
+}
+  
+.barre-blanche {
+  margin-top: 8px;
+  margin-left: 5px;
+  color: white;
+}
+
+.navbar{
+  background: DeepSkyBlue;
+}
+
+/*Carousel*/
+
+.carousel-caption {
+  bottom: 150px;
+  font-size: 30px;
+  text-align: left;
+  padding-bottom: 200px;
+}
+
+.Isao  {
+  text-align: left;
+}
+
+.Hayao  {
+  text-align: right;
+}
+  
+/*Ecritures*/
+
+a {
+  font-family: zenzai;
+  font-size: 35px;
+}
+
+p {
+  font-family: Wonder;
+  font-size: 20px;
+}
+
+h1 {
+  font-family: osaka;
+  font-size: 70px;
+  color: black;
+}
+
+h2 {
+  font-family: 'japonesa';
+  font-size: 50px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+  color: DeepSkyBlue;
+}
+
+h3 {
+  font-family: osaka;
+  color: grey;
+  font-size: 15px;
+  text-align: center;
+}
+
+h4 {
+  font-family: osaka;
+  text-decoration: underline;
+}
+
+/*Body*/
+
+.Ca309 {
+  width: 500px;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li {
+  font-family: Wonder;
+  font-size: 20px;
+}
+
+.caractere {
+  font-family: Japonesa;
+  color: black;
+  vertical-align: top;
+  padding: 5px;
+}
+
+/*Footer*/
+
+.basdepage {
+  background-color: DeepSkyBlue;
+  color: black;
+  font-family: Japonesa;
+  font-size: 30px;
+  margin: 0px;
+}
+
+.logo-fin {
+  width: 40%;
+}
