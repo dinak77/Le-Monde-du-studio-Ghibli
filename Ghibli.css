@@ -18,8 +18,12 @@
   src: url('fonts/Wonder/wonder.ttf') format("truetype");
 }
 
-/*Barre de Nav*/
+  /*Barre de Nav*/
 
+.logo {
+  width: 150px; 
+  height: 100px;
+}  
 .menu-droite {
   display: flex;
   justify-content: flex-end;    
@@ -39,51 +43,60 @@
   color: white;
 }
 
+.dropdown-menu{
+  background: DeepSkyBlue;
+  color: white;
+}
+
+.dropdown-item{
+  color: white;
+}
+
 .navbar{
   background: DeepSkyBlue;
 }
 
-/*Carousel*/
+/*Body*/
 
-.carousel-caption {
-  bottom: 150px;
-  font-size: 30px;
-  text-align: left;
-  padding-bottom: 200px;
+.Fondateurs {
+text-align: center;
 }
 
-.Isao  {
-  text-align: left;
+body {
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
-.Hayao  {
-  text-align: right;
-}
-  
 /*Ecritures*/
 
 a {
-  font-family: zenzai;
-  font-size: 35px;
+font-family: zenzai;
+font-size: 45px;
 }
 
 p {
-  font-family: Wonder;
+font-family: Wonder;
+font-size: 16px;
+}
+
+span  {
   font-size: 20px;
+  font-family: Wonder;
+  font-weight: bold;
 }
 
 h1 {
-  font-family: osaka;
-  font-size: 70px;
-  color: black;
+font-family: osaka;
+font-size: 90px;
+color: black;
 }
 
 h2 {
-  font-family: 'japonesa';
-  font-size: 50px;
-  margin-bottom: 20px;
-  text-decoration: underline;
-  color: DeepSkyBlue;
+font-family: 'japonesa';
+font-size: 50px;
+margin-bottom: 20px;
+text-decoration: underline;
+color: DeepSkyBlue;
 }
 
 h3 {
@@ -94,18 +107,23 @@ h3 {
 }
 
 h4 {
-  font-family: osaka;
-  text-decoration: underline;
+font-family: osaka;
+text-decoration: underline;
 }
 
-/*Body*/
+li {
+font-family: Wonder;
+font-size: 20px;    
+}
+
+/*Images*/
 
 .Ca309 {
-  width: 500px;
-  height: 400px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 500px;
+  height: 500px;
 }
 
 .Logo {
@@ -114,28 +132,46 @@ h4 {
   margin-right: auto;
 }
 
-li {
-  font-family: Wonder;
-  font-size: 20px;
+img {
+
 }
 
-.caractere {
-  font-family: Japonesa;
-  color: black;
-  vertical-align: top;
-  padding: 5px;
+.IsaoAndHayao {
+width: 1100px;
+height: 650px;
+display: block;
+margin-left: auto;
+margin-right: auto; 
+}
+
+.Isao {
+width: 250px;
+height: 250px;
+display: block;
+margin-left: auto;
+margin-right: 1000px;
+margin-bottom: 400px;
+}
+
+.Hayao {
+width: 1000px;
+height: 250px;
+display: block;
+margin-left: 500px;
+margin-right: auto;
+margin-bottom: 400px;
 }
 
 /*Footer*/
 
 .basdepage {
-  background-color: DeepSkyBlue;
-  color: black;
-  font-family: Japonesa;
-  font-size: 30px;
-  margin: 0px;
+background-color: DeepSkyBlue;
+color: black;
+font-family: Japonesa;
+font-size: 30px;
+margin: 0px;
 }
 
 .logo-fin {
-  width: 40%;
+width: 40%;
 }

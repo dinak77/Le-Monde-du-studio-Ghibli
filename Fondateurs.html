@@ -12,66 +12,77 @@
   <body>    
 
     <!--Navbar-->
-      <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light ">
-          <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/e/eb/Logo_Ghibli.svg/langfr-1920px-Logo_Ghibli.svg.png" width="150px"; height="100px" ;alt="logo">
-          <a class="navbar-brand" href="#Menu"></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse menu-droite" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link texte-blanc" href="Ghibli.html">Studio Ghibli</a>
-              </li>
-              <li>
-                      <p class="barre-blanche">|</p>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link texte-blanc" href="Fondateurs.html">Les Fondateurs</a>
-                    </li>
-                    <li>
-                <p class="barre-blanche">|</p>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link texte-blanc" href="Films.html">Les films</a>
-              </li>
-              <li>
-                <p class="barre-blanche">|</p>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link texte-blanc" href="#Personnages">Les personnages</a>
-              </li>
-              <li>
-                <p class="barre-blanche">|</p>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link texte-blanc" href="#Lieux">Lieux</a>
-              </li>
-              <li>
-                <p class="barre-blanche">|</p>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link texte-blanc" href="#FondEcrans">Fonds d'ecrans</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-      </header>
+    <header>
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg navbar-light ">
+              <img class="logo"src="assets/Ghibli.png"alt="logo">
+              <a class="navbar-brand" href="#Menu"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse menu-droite" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link texte-blanc" href="Ghibli.html">Studio Ghibli</a>
+                </li>
+                <li>
+               <p class="barre-blanche">|</p>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link texte-blanc" href="Fondateurs.html">Les Fondateurs</a>
+                      </li>
+                      <li>
+                  <p class="barre-blanche">|</p>
+                </li>
+                <li class="nav-item">
+                    <div class="dropdown">
+                        <a class="nav-link texte-blanc dropdown-toggle" data-toggle="dropdown" >Les films</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="LgMetrages.html">Longs Métrages</a>
+                            <a class="dropdown-item" href="ctMetrages">Court Métrages</a>
+                            <a class="dropdown-item" href="#">Autres</a>
+                          </div>
+                        </div>
+                </li>
+                <li>
+                  <p class="barre-blanche">|</p>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link texte-blanc" href="#Personnages">Les personnages</a>
+                </li>
+                <li>
+                  <p class="barre-blanche">|</p>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link texte-blanc" href="#Lieux">Lieux</a>
+                </li>
+                <li>
+                  <p class="barre-blanche">|</p>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link texte-blanc" href="#FondEcrans">Fonds d'ecrans</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        </header>
       <!--Fin de Navbar-->
 
       <!--Isao TAKAHATA-->
         <h1 class="Fondateurs"> Les fondateurs de Ghibli</h1>
         <img class="IsaoAndHayao"src="assets/fondateurs.jpg">
-      <h2>Isao TAKAHATA</h2>
+        <h2>Isao TAKAHATA</h2>
       <img class="Isao"src="assets/isao_pg_fonda.jpg" alt="Isao">
+    </div>
       <p> Né le 29 octobre 1935 est décédé le 5 avril 2018 à Tokyo. Isao TAKAHATA était un réalisateur, producteur et fondateur du studio Ghibli, sa notorité vient principalement du film La tombeau des Lucioles sorti en 1988.</p>
       <p> Isao est né au Japon, marqué par les bombardements.</p>
       <p>Il étudie la littérature française a l'université de Tokyo, en effet passionné par la France ainsi que sa culture il effectue de fréquent voyage. Il découvre les poèmes de JAcques Prévert, mais aussi son travail avec le réalisateur de film d'animation français Paul Grimault. </p>
       <p> En 1959, Isao intégre le studio d'animation Tōei Animation, il réalise donc son tout premier long métrage Horus, prince du soleil sortit en 1968.</p>
       <p> nous retrouvons ci-dessous une liste des longs et court métrage, serie tv ainsi que ses chef d'oeuvres en tant que producteur.</p>
+      <div class="fondecran">
       <h4>Longs métrages</h4>
+      
       <ul>
           <li> Horus, prince du soleil : 1968.</li>
           <li> lié la petite peste : 1981.</li>
@@ -90,8 +101,9 @@
           <li> Panda petit Panda, le cirque sous la pluie : 1973.</li>
           <li> Jours d'hiver : 2003.</li>
       </ul>
-      <p> Vous trouverez ci-joins une vidéo des oeuvres de Isao TAKAHATA</p>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/EiC2ty8XAQk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+      <p class="compil"> Vous trouverez ci-joins une vidéo des oeuvres de Isao TAKAHATA</p>
+      <iframe class="videoGhibli"width="560" height="315" src="https://www.youtube.com/embed/EiC2ty8XAQk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <!--Fin Isao TAKAHATA-->
 
       <!--Hayao MIYAZAKI-->
@@ -101,6 +113,7 @@
       <p> Hayao est né au Japon, dans l’arrondissement de Bunkyō.</p>
       <p> Ses oeuvres sont marqué par la seconde guerre mondiale.
       <p> nous retrouvons ci-dessous une liste des longs et court métrage, serie tv ainsi que ses chef d'oeuvres en tant que producteur.</p>
+      <div class="fondecran1">
       <h4>Longs métrages</h4>
       <ul>
           <li> Le Château de Cagliostro : 1979. </li>
@@ -129,7 +142,9 @@
           <li> La chasse au trésor : 2011.</li>
           <li> Boro la petite chenille : 2018.</li>
         </ul>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Y3_XCQ09f-Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+        <p class="compil"> Vous trouverez ci-joins une vidéo des oeuvres de Hayao MIYAZAKI</p>
+        <iframe class="videoGhibli"width="560" height="315" src="https://www.youtube.com/embed/Y3_XCQ09f-Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <!--Fin Hayao MIYAZAKI-->
 
         <!--Compilation Ghibli-->
@@ -139,7 +154,7 @@
 
         <!--Contact-->
         <footer>
-            <div class="container">
+            <div class="container-fluid">
               <div class="row basdepage">
                 <div class="col-4">
                   <p>About us</p>
@@ -154,8 +169,8 @@
                 <div class="col-4">
                   <p>Sauron4Ever.com</p>
                   <p>Follow him also on twitter</p>
-                  <div class="container">
-                  <img class="logo-fin" src="https://upload.wikimedia.org/wikipedia/fr/thumb/e/eb/Logo_Ghibli.svg/langfr-1920px-Logo_Ghibli.svg.png" alt="logo">
+                  <div class="container-fluid">
+                      <img class="logo"src="assets/Ghibli.png"alt="logo">
                   </div>
                 </div>
               </div>
