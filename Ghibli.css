@@ -4,8 +4,8 @@
 }
 
 @font-face {
-  font-family: 'zenzai';
-  src: url('fonts/zenzai/zenzai.ttf') format("truetype");
+  font-family: 'jap';
+  src: url('fonts/asia/jap.ttf') format("truetype");
 }
 
 @font-face {
@@ -16,6 +16,10 @@
 @font-face {
   font-family: 'Wonder';
   src: url('fonts/Wonder/wonder.ttf') format("truetype");
+}
+
+#html {
+  background-color: #D7DBDD;
 }
 
   /*Barre de Nav*/
@@ -54,6 +58,7 @@
 
 .navbar{
   background: DeepSkyBlue;
+  border-radius: 15%
 }
 
 /*Body*/
@@ -70,8 +75,8 @@ body {
 /*Ecritures*/
 
 a {
-font-family: zenzai;
-font-size: 45px;
+font-family: jap;
+font-size: 30px;
 }
 
 p {
@@ -97,6 +102,7 @@ font-size: 50px;
 margin-bottom: 20px;
 text-decoration: underline;
 color: DeepSkyBlue;
+text-align: center;
 }
 
 h3 {

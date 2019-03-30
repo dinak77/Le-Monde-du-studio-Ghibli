@@ -1,5 +1,3 @@
-
-
 @font-face {
     font-family: 'japonesa';
     src: url('fonts/jap/jap.ttf') format("truetype");
@@ -127,7 +125,7 @@ h3 {
 h4 {
     font-family: osaka;
     text-decoration: underline;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 li {

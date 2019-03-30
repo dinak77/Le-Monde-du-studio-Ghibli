@@ -58,7 +58,6 @@
 
 .navbar{
   background: DeepSkyBlue;
-  border-radius: 15%;
 }
 
 /*Body*/
@@ -149,7 +148,6 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto; 
-  border-radius: 5%;
   }
 
 .Isao {
@@ -158,7 +156,6 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 20%;
 }
 
 .Hayao {
@@ -167,7 +164,6 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 20%;
   }
 
   /*Vidéos*/
