@@ -17,12 +17,8 @@
     font-family: 'Wonder';
     src: url('fonts/Wonder/wonder.ttf') format("truetype");
 }
-
-#html {
-  background-color: #D7DBDD;
-}
   
-   /*Barre de Nav*/
+  /*Barre de Nav*/
 
 .logo {
   width: 150px; 
@@ -84,7 +80,7 @@ body {
   background-image: url("assets/fondecran1.png ");
   background-repeat: no-repeat;
   background-position: right 1% top 30%;
-  background-size: 60%;
+  background-size: 45%;
  }
 
   /*Ecritures*/
@@ -113,6 +109,8 @@ h2 {
   background-color: DeepSkyBlue;
   color: white;
   text-align: center;
+    margin-left: 550px;
+    margin-right: 550px;
 }
   
 h3 {
