@@ -93,32 +93,29 @@ a {
 p {
   font-family: Wonder;
   font-size: 20px;
+  text-align: center; 
 }
   
 h1 {
   font-family: osaka;
   font-size: 65px;
-  color: black;
+  color: DeepSkyBlue;
   text-align: center;
 }
   
 h2 {
   font-family: 'japonesa';
-  font-size: 50px;
-  margin-bottom: 20px;
+  font-size: 40px;
   text-decoration: underline;
-  background-color: DeepSkyBlue;
-  color: white;
+  color: black;
   text-align: center;
-    margin-left: 550px;
-    margin-right: 550px;
 }
   
 h3 {
-    font-family: osaka;
-    color: grey;
-    font-size: 15px;
-    text-align: center;
+  font-family: 'japonesa';
+  font-size: 40px;
+  text-decoration: underline;
+  color: black;
 }
   
 h4 {
@@ -129,7 +126,8 @@ h4 {
 
 li {
   font-family: Wonder;
-  font-size: 20px;    
+  font-size: 20px; 
+   
 }
 
 .compil  {
@@ -142,16 +140,7 @@ img {
   padding-bottom: 30px;
 }
 
-.IsaoAndHayao {
-  width: 1100px;
-  height: 650px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto; 
-  border-radius: 5%;
-  }
-
-.Isao {
+.GoroMiyazaki {
   width: 250px;
   height: 250px;
   display: block;
@@ -159,22 +148,14 @@ img {
   margin-right: auto;
   border-radius: 20%;
 }
-
-.Hayao {
-  width: 250px;
-  height: 250px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 20%;
-  }
 
   /*Vidéos*/
 
 iframe {
   padding-bottom: 20px;
 }
-.videoGhibli {
+
+.InterviewGoro {
   display: block;
   margin-left: auto;
   margin-right: auto;

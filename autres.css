@@ -1,0 +1,26 @@
+.icon {
+	opacity: 0.5;
+}
+
+.icon:hover {
+	opacity: 1;
+	transition: 0.3s;
+}
+
+#copyright {
+    padding-top: 4em;
+	text-align: center;
+}
+.icon {
+	opacity: 0.5;
+}
+
+.icon:hover {
+	opacity: 1;
+	transition: 0.3s;
+}
+
+#copyright {
+    padding-top: 4em;
+	text-align: center;
+}
