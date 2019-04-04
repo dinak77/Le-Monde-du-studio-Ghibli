@@ -59,29 +59,11 @@
 
 /*Body*/
 
-.Fondateurs {
-  text-align: center;
-}
-
 body {
   margin-left: 15px;
   margin-right: 15px;
   background-color: #D7DBDD;
 }
-
-.fondecran {
- background-image: url("assets/Ghibli.png");
- background-repeat: no-repeat;
- background-position: right 1% top 30%;
- background-size: 60%;
-}
-
-.fondecran1 {
-  background-image: url("assets/fondecran1.png ");
-  background-repeat: no-repeat;
-  background-position: right 1% top 30%;
-  background-size: 45%;
- }
 
   /*Ecritures*/
 
@@ -94,6 +76,7 @@ p {
   font-family: Wonder;
   font-size: 20px;
   text-align: center; 
+  padding-bottom: 20px;
 }
   
 h1 {
@@ -105,10 +88,11 @@ h1 {
   
 h2 {
   font-family: 'japonesa';
-  font-size: 40px;
+  font-size: 80px;
   text-decoration: underline;
   color: black;
   text-align: center;
+  padding-bottom: 30px;
 }
   
 h3 {
@@ -116,6 +100,8 @@ h3 {
   font-size: 40px;
   text-decoration: underline;
   color: black;
+  padding-bottom: 30px;
+  text-align: center;
 }
   
 h4 {
@@ -130,51 +116,23 @@ li {
    
 }
 
-.compil  {
-  text-align: center;
-}
-
 /*Images*/
 
-img {
+.Lieux {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   padding-bottom: 30px;
 }
-
-.hayao {
-  width: 250px;
-  height: 300px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 20%;
-}
-
-  /*Vidéos*/
-
-iframe {
-  padding-bottom: 20px;
-}
-
-.video {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.carousel-control-prev {
- background-color: black;
- width: 20px;
-}
-
-.carousel-control-next {
-  background-color: black;
-  width: 20px;
- }
-
-.carousel-item-Sliders {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+.etranger {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+    padding-right: 10px;
+    width: 400px;
+    height: 400px;
+  }
 
   /*Footer*/
   .page-footer {
@@ -183,7 +141,7 @@ iframe {
     font-family: Japonesa;
     border-radius: 15%;
   }
-
+  
 .footer li {
   list-style:none;
 }  
