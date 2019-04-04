@@ -161,15 +161,40 @@ iframe {
   margin-right: auto;
 }
 
-  /*Footer*/
-  .basdepage {
+   /*Footer*/
+   .page-footer {
     background-color: DeepSkyBlue;
     color: black;
     font-family: Japonesa;
-    font-size: 30px;
-    margin: 0px;
+    border-radius: 15%;
   }
-    
-  .logo-fin {
-    width: 40%;
+
+.footer li {
+  list-style:none;
+}  
+
+.footer1 li {
+  list-style:none;
+}  
+
+.titleThird {
+  
+  padding-bottom: 5px;
+  font-family: osaka;
+}
+
+.titleFourth {
+  padding-bottom: 5px;
+  font-family: osaka;
+}
+
+.titleCol {
+  text-align: center;
+  font-size: 40px;
+}
+
+  .icon {
+    width: 100px;
+    height: 100px;
+    margin-left: 80px;
   }

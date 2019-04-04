@@ -62,7 +62,7 @@
       
   /*Body*/
 
-  .row img{
+  .Films {
     width: 100%;
     text-align: center;
     padding-bottom: 20px;
@@ -132,21 +132,46 @@ li {
     font-size: 20px;
 }
     
-  /*Footer*/
+   /*Footer*/
+
+  .page-footer {
+  background-color: DeepSkyBlue;
+  color: black;
+  font-family: Japonesa;
+  border-radius: 15%;
+  }
+
+.footer li {
+  list-style:none;
+}  
+
+.footer1 li {
+  list-style:none;
+}  
+
+.titleThird {
+  padding-bottom: 5px;
+  font-family: osaka;
+}
+
+.titleFourth {
+  padding-bottom: 5px;
+  font-family: osaka;
+}
+
+.titleCol {
+  text-align: center;
+  font-size: 40px;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+}
+
+.Mickaël p {
+  font-family: Wonder;
+  font-size: 20px;
+  text-align: center; 
+}  
   
-.basdepage {
-    background-color: DeepSkyBlue;
-    color: black;
-    font-family: Japonesa;
-    font-size: 30px;
-    margin: 0px;
-}
-
-.logo-fin {
-    width: 40%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 30px;
-}
-

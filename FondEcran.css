@@ -78,6 +78,12 @@ a {
   font-size:30px;
 }
 
+p {
+  font-family: Wonder;
+  font-size: 20px;
+  text-align: center; 
+}
+
 h1 {
   font-family: osaka;
   font-size: 90px;
@@ -91,11 +97,40 @@ h4 {
   color: black;
 }
 
-/*Footer*/
+  /*Footer*/
+  .page-footer {
+    background-color: DeepSkyBlue;
+    color: black;
+    font-family: Japonesa;
+    border-radius: 15%;
+  }
 
-.basdepage {
-background-color: DeepSkyBlue;
-color: black;
-font-family: Japonesa;
-font-size: 30px;
+.footer li {
+  list-style:none;
+}  
+
+.footer1 li {
+  list-style:none;
+}  
+
+.titleThird {
+  
+  padding-bottom: 5px;
+  font-family: osaka;
 }
+
+.titleFourth {
+  padding-bottom: 5px;
+  font-family: osaka;
+}
+
+.titleCol {
+  text-align: center;
+  font-size: 40px;
+}
+
+  .icon {
+    width: 100px;
+    height: 100px;
+    margin-left: 80px;
+  }
