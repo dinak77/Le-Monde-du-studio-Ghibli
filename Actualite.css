@@ -38,7 +38,7 @@
 }
   
 .barre-blanche {
-
+  margin-top: 8px;
   margin-left: 5px;
   color: white;
 }
@@ -93,125 +93,97 @@ a {
 p {
   font-family: Wonder;
   font-size: 20px;
-  text-align: center; 
 }
   
 h1 {
   font-family: osaka;
   font-size: 65px;
-  color: DeepSkyBlue;
+  color: black;
   text-align: center;
 }
   
 h2 {
   font-family: 'japonesa';
-  font-size: 40px;
+  font-size: 50px;
+  margin-bottom: 20px;
   text-decoration: underline;
-  color: black;
+  background-color: DeepSkyBlue;
+  color: white;
   text-align: center;
+  margin-left: 550px;
+  margin-right: 550px;
 }
   
 h3 {
-  font-family: 'japonesa';
-  font-size: 40px;
-  text-decoration: underline;
-  color: black;
+    font-family: osaka;
+    color: grey;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 30px;
 }
   
 h4 {
+  padding-top:30px;
   font-family: osaka;
   text-decoration: underline;
   color: DeepSkyBlue;
+  font-size:60px;
+  text-align: center;
 }
 
 li {
   font-family: Wonder;
-  font-size: 20px; 
-   
+  font-size: 20px;    
 }
-
-.compil  {
-  text-align: center;
-}
-
 /*Images*/
 
-img {
+.Actu {
+  padding-top: 30px;
   padding-bottom: 30px;
-}
-
-.IsaoT {
-  width: 250px;
-  height: 300px;
-  display: block;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 20%;
-}
-
-  /*Vidéos*/
-
-iframe {
-  padding-bottom: 20px;
-}
-
-.video {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.carousel-control-prev {
- background-color: black;
- width: 20px;
 }
 
-.carousel-control-next {
-  background-color: black;
-  width: 20px;
- }
 
-.carousel-item-Sliders {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-  /*Footer*/
+    /*Footer*/
 .page-footer {
-  background-color: DeepSkyBlue;
-  color: black;
-  font-family: Japonesa;
-  border-radius: 15%;
-}
-
-.footer li {
-  list-style:none;
-}  
-
-.footer1 li {
-  list-style:none;
-}  
-
-.titleThird {
+    background-color: DeepSkyBlue;
+    color: black;
+    font-family: Japonesa;
+    border-radius: 15%;
+    }
   
-  padding-bottom: 5px;
-  font-family: osaka;
+.footer li {
+    list-style:none;
+}  
+  
+.footer1 li {
+    list-style:none;
+  }  
+  
+.titleThird {
+    
+    padding-bottom: 5px;
+    font-family: osaka;
 }
-
+  
 .titleFourth {
-  padding-bottom: 5px;
-  font-family: osaka;
-}
-
+    padding-bottom: 5px;
+    font-family: osaka;
+ }
+  
 .titleCol {
-  text-align: center;
-  font-size: 40px;
+    text-align: center;
+    font-size: 40px;
 }
-
+  
 .icon {
-  width: 100px;
-  height: 100px;
-  margin-left: 80px;
+    width: 100px;
+    height: 100px;
+    margin-left: 80px;
 }
 
-
+.Mickaël {
+    text-align: center;
+    }

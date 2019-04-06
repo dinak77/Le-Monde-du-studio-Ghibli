@@ -177,12 +177,12 @@ iframe {
 }
 
   /*Footer*/
-  .page-footer {
-    background-color: DeepSkyBlue;
-    color: black;
-    font-family: Japonesa;
-    border-radius: 15%;
-  }
+.page-footer {
+  background-color: DeepSkyBlue;
+  color: black;
+  font-family: Japonesa;
+  border-radius: 15%;
+}
 
 .footer li {
   list-style:none;
@@ -208,10 +208,10 @@ iframe {
   font-size: 40px;
 }
 
-  .icon {
-    width: 100px;
-    height: 100px;
-    margin-left: 80px;
-  }
+.icon {
+  width: 100px;
+  height: 100px;
+  margin-left: 80px;
+}
 
 
