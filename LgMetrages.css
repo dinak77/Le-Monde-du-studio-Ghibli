@@ -1,68 +1,66 @@
-
-
 @font-face {
     font-family: 'japonesa';
     src: url('fonts/jap/jap.ttf') format("truetype");
 }
-  
+
 @font-face {
     font-family: 'jap';
     src: url('fonts/asia/jap.ttf') format("truetype");
 }
-  
+
 @font-face {
     font-family: 'osaka';
     src: url('fonts/osaka/osaka.ttf') format("truetype");
 }
-  
+
 @font-face {
     font-family: 'Wonder';
     src: url('fonts/Wonder/wonder.ttf') format("truetype");
 }
-  
-  /*Barre de Nav*/
-  
+
+/*Barre de Nav*/
+
 .logo {
-    width: 150px; 
+    width: 150px;
     height: 100px;
-}  
+}
 
 .menu-droite {
     display: flex;
-    justify-content: flex-end;    
+    justify-content: flex-end;
 }
-    
+
 .navbar-light .navbar-nav .nav-link {
     color: white;
 }
-    
+
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
     color: white;
 }
-    
+
 .barre-blanche {
     margin-top: 8px;
     margin-left: 5px;
     color: white;
 }
-  
-.dropdown-menu{
+
+.dropdown-menu {
     background: DeepSkyBlue;
     color: white;
 }
 
-.dropdown-item{
+.dropdown-item {
     color: white;
 }
 
-.navbar{
+.navbar {
     background: DeepSkyBlue;
     border-radius: 15%;
 }
-      
-  /*Body*/
 
-  .Films {
+/*Body*/
+
+.Films {
     width: 100%;
     text-align: center;
     padding-bottom: 20px;
@@ -72,13 +70,12 @@
     text
 }
 
-
 .row {
-    text-align:center;
+    text-align: center;
 }
-  
-.col-10 {  
-    margin: auto;     
+
+.col-10 {
+    margin: auto;
 }
 
 body {
@@ -87,25 +84,25 @@ body {
     background-color: #D7DBDD;
 }
 
-  /*Ecritures*/
-  
+/*Ecritures*/
+
 a {
     font-family: jap;
     font-size: 30px;
 }
-  
+
 p {
     font-family: Wonder;
     font-size: 16px;
 }
-  
+
 h1 {
     font-family: osaka;
     font-size: 70px;
     color: black;
-    text-align: center; 
+    text-align: center;
 }
-  
+
 h2 {
     font-family: 'japonesa';
     font-size: 50px;
@@ -113,14 +110,14 @@ h2 {
     text-decoration: underline;
     color: DeepSkyBlue;
 }
-  
+
 h3 {
     font-family: osaka;
     color: grey;
     font-size: 15px;
     text-align: center;
 }
-  
+
 h4 {
     font-family: osaka;
     text-decoration: underline;
@@ -131,47 +128,46 @@ li {
     font-family: Wonder;
     font-size: 20px;
 }
-    
-   /*Footer*/
 
-  .page-footer {
-  background-color: DeepSkyBlue;
-  color: black;
-  font-family: Japonesa;
-  border-radius: 15%;
-  }
+/*Footer*/
+
+.page-footer {
+    background-color: DeepSkyBlue;
+    color: black;
+    font-family: Japonesa;
+    border-radius: 15%;
+}
 
 .footer li {
-  list-style:none;
-}  
+    list-style: none;
+}
 
 .footer1 li {
-  list-style:none;
-}  
+    list-style: none;
+}
 
 .titleThird {
-  padding-bottom: 5px;
-  font-family: osaka;
+    padding-bottom: 5px;
+    font-family: osaka;
 }
 
 .titleFourth {
-  padding-bottom: 5px;
-  font-family: osaka;
+    padding-bottom: 5px;
+    font-family: osaka;
 }
 
 .titleCol {
-  text-align: center;
-  font-size: 40px;
+    text-align: center;
+    font-size: 40px;
 }
 
 .icon {
-  width: 100px;
-  height: 100px;
+    width: 100px;
+    height: 100px;
 }
 
 .Mickaël p {
-  font-family: Wonder;
-  font-size: 20px;
-  text-align: center; 
-}  
-  
+    font-family: Wonder;
+    font-size: 20px;
+    text-align: center;
+}

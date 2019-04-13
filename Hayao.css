@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'japonesa';
-    src: url('fonts/jap/jap.ttf') format("truetype");
+  font-family: 'japonesa';
+  src: url('fonts/jap/jap.ttf') format("truetype");
 }
 
 @font-face {
@@ -9,50 +9,50 @@
 }
 
 @font-face {
-    font-family: 'osaka';
-    src: url('fonts/osaka/osaka.ttf') format("truetype");
+  font-family: 'osaka';
+  src: url('fonts/osaka/osaka.ttf') format("truetype");
 }
 
 @font-face {
-    font-family: 'Wonder';
-    src: url('fonts/Wonder/wonder.ttf') format("truetype");
+  font-family: 'Wonder';
+  src: url('fonts/Wonder/wonder.ttf') format("truetype");
 }
-  
-  /*Barre de Nav*/
+
+/*Barre de Nav*/
 
 .logo {
-  width: 150px; 
+  width: 150px;
   height: 100px;
-}  
+}
+
 .menu-droite {
   display: flex;
-  justify-content: flex-end;    
+  justify-content: flex-end;
 }
-  
+
 .navbar-light .navbar-nav .nav-link {
   color: white;
 }
-  
+
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
   color: white;
 }
-  
-.barre-blanche {
 
+.barre-blanche {
   margin-left: 5px;
   color: white;
 }
 
-.dropdown-menu{
+.dropdown-menu {
   background: DeepSkyBlue;
   color: white;
 }
 
-.dropdown-item{
+.dropdown-item {
   color: white;
 }
 
-.navbar{
+.navbar {
   background: DeepSkyBlue;
   border-radius: 15%;
 }
@@ -70,10 +70,10 @@ body {
 }
 
 .fondecran {
- background-image: url("assets/Ghibli.png");
- background-repeat: no-repeat;
- background-position: right 1% top 30%;
- background-size: 60%;
+  background-image: url("assets/Ghibli.png");
+  background-repeat: no-repeat;
+  background-position: right 1% top 30%;
+  background-size: 60%;
 }
 
 .fondecran1 {
@@ -81,28 +81,28 @@ body {
   background-repeat: no-repeat;
   background-position: right 1% top 30%;
   background-size: 45%;
- }
+}
 
-  /*Ecritures*/
+/*Ecritures*/
 
 a {
   font-family: jap;
   font-size: 30px;
 }
-  
+
 p {
   font-family: Wonder;
   font-size: 20px;
-  text-align: center; 
+  text-align: center;
 }
-  
+
 h1 {
   font-family: osaka;
   font-size: 65px;
   color: DeepSkyBlue;
   text-align: center;
 }
-  
+
 h2 {
   font-family: 'japonesa';
   font-size: 40px;
@@ -110,14 +110,14 @@ h2 {
   color: black;
   text-align: center;
 }
-  
+
 h3 {
   font-family: 'japonesa';
   font-size: 40px;
   text-decoration: underline;
   color: black;
 }
-  
+
 h4 {
   font-family: osaka;
   text-decoration: underline;
@@ -126,11 +126,10 @@ h4 {
 
 li {
   font-family: Wonder;
-  font-size: 20px; 
-   
+  font-size: 20px;
 }
 
-.compil  {
+.compil {
   text-align: center;
 }
 
@@ -149,7 +148,7 @@ img {
   border-radius: 20%;
 }
 
-  /*Vidéos*/
+/*Vidéos*/
 
 iframe {
   padding-bottom: 20px;
@@ -160,15 +159,16 @@ iframe {
   margin-left: auto;
   margin-right: auto;
 }
+
 .carousel-control-prev {
- background-color: black;
- width: 20px;
+  background-color: black;
+  width: 20px;
 }
 
 .carousel-control-next {
   background-color: black;
   width: 20px;
- }
+}
 
 .carousel-item-Sliders {
   display: block;
@@ -176,7 +176,8 @@ iframe {
   margin-right: auto;
 }
 
-  /*Footer*/
+/*Footer*/
+
 .page-footer {
   background-color: DeepSkyBlue;
   color: black;
@@ -185,15 +186,14 @@ iframe {
 }
 
 .footer li {
-  list-style:none;
-}  
+  list-style: none;
+}
 
 .footer1 li {
-  list-style:none;
-}  
+  list-style: none;
+}
 
 .titleThird {
-  
   padding-bottom: 5px;
   font-family: osaka;
 }
@@ -213,5 +213,3 @@ iframe {
   height: 100px;
   margin-left: 80px;
 }
-
-

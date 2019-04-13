@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'japonesa';
-    src: url('fonts/jap/jap.ttf') format("truetype");
+  font-family: 'japonesa';
+  src: url('fonts/jap/jap.ttf') format("truetype");
 }
 
 @font-face {
@@ -9,50 +9,51 @@
 }
 
 @font-face {
-    font-family: 'osaka';
-    src: url('fonts/osaka/osaka.ttf') format("truetype");
+  font-family: 'osaka';
+  src: url('fonts/osaka/osaka.ttf') format("truetype");
 }
 
 @font-face {
-    font-family: 'Wonder';
-    src: url('fonts/Wonder/wonder.ttf') format("truetype");
+  font-family: 'Wonder';
+  src: url('fonts/Wonder/wonder.ttf') format("truetype");
 }
-  
-  /*Barre de Nav*/
+
+/*Barre de Nav*/
 
 .logo {
-  width: 150px; 
+  width: 150px;
   height: 100px;
-}  
+}
+
 .menu-droite {
   display: flex;
-  justify-content: flex-end;    
+  justify-content: flex-end;
 }
-  
+
 .navbar-light .navbar-nav .nav-link {
   color: white;
 }
-  
+
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
   color: white;
 }
-  
+
 .barre-blanche {
   margin-top: 8px;
   margin-left: 5px;
   color: white;
 }
 
-.dropdown-menu{
+.dropdown-menu {
   background: DeepSkyBlue;
   color: white;
 }
 
-.dropdown-item{
+.dropdown-item {
   color: white;
 }
 
-.navbar{
+.navbar {
   background: DeepSkyBlue;
   border-radius: 15%;
 }
@@ -70,10 +71,10 @@ body {
 }
 
 .fondecran {
- background-image: url("assets/Ghibli.png");
- background-repeat: no-repeat;
- background-position: right 1% top 30%;
- background-size: 60%;
+  background-image: url("assets/Ghibli.png");
+  background-repeat: no-repeat;
+  background-position: right 1% top 30%;
+  background-size: 60%;
 }
 
 .fondecran1 {
@@ -81,27 +82,27 @@ body {
   background-repeat: no-repeat;
   background-position: right 1% top 30%;
   background-size: 45%;
- }
+}
 
-  /*Ecritures*/
+/*Ecritures*/
 
 a {
   font-family: jap;
   font-size: 30px;
 }
-  
+
 p {
   font-family: Wonder;
   font-size: 20px;
 }
-  
+
 h1 {
   font-family: osaka;
   font-size: 65px;
   color: black;
   text-align: center;
 }
-  
+
 h2 {
   font-family: 'japonesa';
   font-size: 50px;
@@ -113,28 +114,29 @@ h2 {
   margin-left: 550px;
   margin-right: 550px;
 }
-  
+
 h3 {
-    font-family: osaka;
-    color: grey;
-    font-size: 20px;
-    text-align: center;
-    padding-bottom: 30px;
+  font-family: osaka;
+  color: grey;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 30px;
 }
-  
+
 h4 {
-  padding-top:30px;
+  padding-top: 30px;
   font-family: osaka;
   text-decoration: underline;
   color: DeepSkyBlue;
-  font-size:60px;
+  font-size: 60px;
   text-align: center;
 }
 
 li {
   font-family: Wonder;
-  font-size: 20px;    
+  font-size: 20px;
 }
+
 /*Images*/
 
 .Actu {
@@ -145,45 +147,44 @@ li {
   display: block;
 }
 
+/*Footer*/
 
-    /*Footer*/
 .page-footer {
-    background-color: DeepSkyBlue;
-    color: black;
-    font-family: Japonesa;
-    border-radius: 15%;
-    }
-  
+  background-color: DeepSkyBlue;
+  color: black;
+  font-family: Japonesa;
+  border-radius: 15%;
+}
+
 .footer li {
-    list-style:none;
-}  
-  
+  list-style: none;
+}
+
 .footer1 li {
-    list-style:none;
-  }  
-  
+  list-style: none;
+}
+
 .titleThird {
-    
-    padding-bottom: 5px;
-    font-family: osaka;
+  padding-bottom: 5px;
+  font-family: osaka;
 }
-  
+
 .titleFourth {
-    padding-bottom: 5px;
-    font-family: osaka;
- }
-  
-.titleCol {
-    text-align: center;
-    font-size: 40px;
+  padding-bottom: 5px;
+  font-family: osaka;
 }
-  
+
+.titleCol {
+  text-align: center;
+  font-size: 40px;
+}
+
 .icon {
-    width: 100px;
-    height: 100px;
-    margin-left: 80px;
+  width: 100px;
+  height: 100px;
+  margin-left: 80px;
 }
 
 .Mickaël {
-    text-align: center;
-    }
+  text-align: center;
+}
